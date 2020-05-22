@@ -1,0 +1,50 @@
+footer {
+  height: 140px;
+  padding-top: 20px;
+  color: var(--alt-text-color);
+  background-color: var(--alt-background-color);
+}
+.section-footer {
+  bottom: 0;
+  display: block;
+  padding-top: 30px;
+}
+
+.copyright-text {
+  align-self: flex-end;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.footer-icon {
+  cursor: pointer;
+  font-size: 24px;
+  margin: 10px 5px;
+}
+
+.facebook-bg-color {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 20%,
+    white 20%,
+    white 93%,
+    transparent 93%
+  );
+  background-size: 50%;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+}
+
+.youtube-bg-color {
+  background-image: linear-gradient(
+    to bottom,
+    transparent 20%,
+    white 20%,
+    white 93%,
+    transparent 90%
+  );
+  background-size: 50%;
+  background-position: 50% 0%;
+  background-repeat: no-repeat;
+  background-position-y: -1px;
+}

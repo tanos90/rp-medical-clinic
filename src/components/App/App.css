@@ -1,0 +1,81 @@
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.app {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.main-container {
+  flex: 1;
+  flex-grow: 1;
+  padding-top: 100px;
+  min-height: 100vh;
+  background-color: var(--main-background-color);
+}
+
+.slide-enter,
+.slide-exit {
+  transition: transform 600ms ease-out;
+}
+
+.slide-enter {
+  transform: translateX(100%);
+}
+
+.slide-enter.slide-enter-active {
+  transform: translateX(0%);
+}
+
+.slide-exit {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  width: 100%;
+
+  max-height: 10px !important;
+  transform: translateX(0%);
+}
+
+.slide-exit-active {
+  transform: translateX(-100%);
+}
+
+.app-component-container {
+  min-height: calc(100vh - 230px);
+}
+
+loader {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}

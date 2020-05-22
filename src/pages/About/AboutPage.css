@@ -1,0 +1,48 @@
+.about-header {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.376), rgb(0, 0, 0)),
+    url('/assets/images/header/about.jpg') no-repeat center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+.about-us-container {
+  background-color: white;
+  border-radius: 5px;
+  padding: 40px;
+}
+.about-us-image {
+  width: 360px;
+  height: auto;
+  margin-top: 20px;
+}
+
+@media (min-width: 600px) {
+  .about-us-image {
+    width: 460px !important;
+  }
+}
+
+.quote-about {
+  display: block;
+  text-align: center;
+  padding: 20px 30px;
+}
+
+.quote-icon {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.source-quote {
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.video-container {
+  min-width: 450px;
+}
+@media (max-width: 600px) {
+  .video-container {
+    min-width: 300px;
+  }
+}

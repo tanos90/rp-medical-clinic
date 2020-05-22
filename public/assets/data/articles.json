@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "Family of God Fellowship",
+    "text": "Is located in beautiful Rocky Point, Mexico. Pastor Tab Gray's mission includes compassionate outreach along with the proclamation of the Gospel.",
+    "image": "./assets/images/1.png",
+    "isMain": true
+  },
+  {
+    "id": 2,
+    "title": {
+      "en": "Proclaiming Christ through Volunteer Medical Outreach",
+      "es": "Proclamando a Cristo a través del servicio médico voluntario"
+    },
+    "text": {
+      "en": "Rocky Point Medical Clinics, a ministry of Family of God Fellowship in Puerto Peñasco, sees hundreds of patients each month, providing much needed health care as well as the life-saving Gospel of Jesus Christ. Begun by George and Susie Stavros, the clinics are staffed by volunteer doctors, nurses and other health care workers to provide patient care and health screenings. In addition, funds channeled through the ministry help to provide surgeries and procedures which could not be afforded by the local people.",
+      "es": "Rocky Point Medical Clinics, un ministerio de la Familia de Dios Fellowship en Puerto Peñasco, atiende a cientos de pacientes cada mes, brindando atención médica muy necesaria, así como el Evangelio de Jesucristo que salva vidas. Iniciadas por George y Susie Stavros, las clínicas están integradas por médicos voluntarios, enfermeras y otros trabajadores de la salud para brindar atención médica y exámenes de salud. Además, los fondos canalizados a través del ministerio ayudan a proporcionar cirugías y procedimientos que la población local no podría pagar."
+    },
+    "image": "./assets/images/1.png",
+    "isMain": false
+  },
+  {
+    "id": 3,
+    "title": {
+      "en": "Proclaiming Christ through Volunteer Medical Outreach",
+      "es": "Proclamando a Cristo a través del servicio médico voluntario"
+    },
+    "text": {
+      "en": "Rocky Point Medical Clinics, a ministry of Family of God Fellowship in Puerto Peñasco, sees hundreds of patients each month, providing much needed health care as well as the life-saving Gospel of Jesus Christ. Begun by George and Susie Stavros, the clinics are staffed by volunteer doctors, nurses and other health care workers to provide patient care and health screenings. In addition, funds channeled through the ministry help to provide surgeries and procedures which could not be afforded by the local people.",
+      "es": "Rocky Point Medical Clinics, un ministerio de la Familia de Dios Fellowship en Puerto Peñasco, atiende a cientos de pacientes cada mes, brindando atención médica muy necesaria, así como el Evangelio de Jesucristo que salva vidas. Iniciadas por George y Susie Stavros, las clínicas están integradas por médicos voluntarios, enfermeras y otros trabajadores de la salud para brindar atención médica y exámenes de salud. Además, los fondos canalizados a través del ministerio ayudan a proporcionar cirugías y procedimientos que la población local no podría pagar."
+    },
+    "image": "./assets/images/1.png",
+    "isMain": false
+  }
+]

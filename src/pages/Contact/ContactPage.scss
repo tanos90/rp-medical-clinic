@@ -1,0 +1,56 @@
+.paralsec1-contact {
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.376), rgba(0, 0, 0, 0.1)),
+    url('/assets/images/header/contact-us.jpg') no-repeat center center !important;
+  background-size: cover !important;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 800px) {
+  .paralsec1-contact {
+    background: -webkit-linear-gradient(
+        rgba(0, 0, 0, 0.376),
+        rgba(0, 0, 0, 0.1)
+      ),
+      url('/assets/images/header/contact-us-small.jpg') no-repeat center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+  }
+}
+
+.contact-info-container {
+  background-color: #fff !important;
+  padding: 10px;
+  border-radius: 5px;
+  min-height: 300px;
+}
+
+.contact-information {
+  display: flex;
+  align-items: center;
+}
+
+h2,
+h4 {
+  color: #272727;
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  margin: auto 0px;
+  padding: 20px;
+  max-width: 450px;
+  width: 450px;
+  height: 300px;
+  border: 2px solid rgb(27, 27, 27);
+}
+
+.social-icon {
+  font-size: 32px;
+  min-width: 32px;
+}
+
+.community-center-link {
+  text-align: center;
+  max-width: 310px;
+}

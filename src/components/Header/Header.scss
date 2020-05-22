@@ -1,0 +1,408 @@
+$background-navbar: var(--alt-color);
+$hamburger-icon-color: var(--alt-text-color);
+$on-navbar-color: var(--alt-text-color);
+
+$hover-border-donate-button: var(--alt-background-color);
+$hover-background-donate-button: var(--alt-background-color);
+$hover-on-donate-button: var(--alt-text-color);
+
+$border-donate-button: var(--alt-color);
+$on-donate-button: var(--alt-text-color);
+$background-donate-button: var(--alt-color);
+
+$link-animation-line-color: var(--alt-background-color);
+
+@mixin transition($in) {
+  transition: $in;
+  -webkit-transition: $in;
+  -moz-transition: $in;
+  -o-transition: $in;
+  -ms-transition: $in;
+}
+@mixin transform($in) {
+  transform: $in;
+  -webkit-transform: $in;
+  -moz-transform: $in;
+  -o-transform: $in;
+  -ms-transform: $in;
+}
+@mixin animation($in) {
+  animation: $in;
+  -webkit-animation: $in;
+  -moz-animation: $in;
+  -o-animation: $in;
+  -ms-animation: $in;
+}
+
+.logo-image {
+  width: 200px;
+  padding: 20px;
+}
+
+.nav-item {
+  color: $on-navbar-color !important;
+  //text-transform: uppercase;
+}
+
+.logo-img {
+  max-width: 300px;
+  border: none;
+  margin-bottom: 5px;
+  background-color: transparent !important;
+}
+
+.logo-subtext {
+  color: #333333;
+}
+
+.logo-brand {
+  margin: 0px 10px 0px 10px;
+}
+
+.navbar-nav {
+  padding-left: 4px !important;
+  padding: 0px;
+  position: relative;
+  z-index: 99;
+  height: 100px;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+@media (min-width: 1220px) {
+  .navbar-nav {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 600px) {
+  .right-header-buttons-container {
+    flex-direction: row !important;
+    margin-top: 0px !important;
+  }
+}
+
+.navbar-nav li {
+  display: inline-block;
+}
+
+.navbar-nav li a {
+  position: relative;
+  display: block;
+  padding: 34px 7px;
+  margin-right: 45px;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: $on-navbar-color !important;
+}
+
+.link-animation {
+  text-decoration: none;
+}
+
+.link-animation:after {
+  position: absolute;
+  box-sizing: border-box;
+  content: '';
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  background-color: $link-animation-line-color;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.link-animation:hover:after {
+  width: 100%;
+}
+
+.banner-image {
+  width: auto;
+  max-width: 350px;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+
+.navbar {
+  padding: 0px !important;
+  min-height: 140px;
+}
+
+.navbar-brand-banner {
+  margin-right: 0px;
+  cursor: pointer;
+}
+
+.navbar-toggler {
+  width: auto;
+  padding: 10px 0px !important;
+  font-size: 1rem;
+  flex-grow: 100;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.navbar-right-side {
+  background: $background-navbar;
+  border-radius: 3px;
+  //border-top: var(--alt-background-color) solid 3px;
+  //border-top: var(--alt-background-color) solid 5px;
+  display: flex;
+  flex-grow: 100;
+  padding-bottom: 5px;
+  //min-height: 120px;
+}
+$duration: 0.5s;
+
+$size: 100%;
+$toggled-size: 0.75;
+
+@media (min-width: 1290px) {
+  .navbar-expand-custom {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+  }
+  .navbar-expand-custom .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+  }
+  .navbar-expand-custom .navbar-collapse {
+    display: flex !important;
+    justify-content: center;
+    background: $background-navbar;
+    border-radius: 3px 0px 0px 3px;
+  }
+  .navbar-expand-custom .navbar-toggler {
+    display: none;
+  }
+}
+
+.navbar-collapse {
+  flex-direction: column;
+  display: flex;
+}
+
+.navbar {
+  background-color: #8e8e8e;
+}
+@media (min-width: 1290px) {
+  .navbar-expand-custom .navbar-toggler {
+    display: none;
+  }
+}
+.navicon-container {
+  max-width: 40rem;
+  margin: 0px !important;
+  border-radius: 0.5rem 0.5rem 0 0;
+  background: transparent;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+  & *,
+  & *:before,
+  & *:after {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.navicon-button {
+  display: inline-block;
+  position: relative;
+  padding: 2.0625rem 1.5rem !important;
+  transition: $duration/2;
+  cursor: pointer;
+  user-select: none;
+  opacity: 0.8;
+
+  .navicon:before,
+  .navicon:after {
+    transition: $duration/2;
+  }
+
+  &:hover {
+    transition: $duration;
+    opacity: 1;
+
+    .navicon:before,
+    .navicon:after {
+      transition: $duration/2;
+    }
+
+    .navicon:before {
+      top: 0.825rem;
+    }
+    .navicon:after {
+      top: -0.825rem;
+    }
+  }
+}
+
+.navicon {
+  position: relative;
+  width: 2.5em;
+  height: 0.3125rem;
+  background: $hamburger-icon-color;
+  transition: $duration;
+  border-radius: 2.5rem;
+
+  &:before,
+  &:after {
+    display: block;
+    content: '';
+    height: 0.3125rem;
+    width: 2.5rem;
+    background: $hamburger-icon-color;
+    position: absolute;
+    z-index: -1;
+    transition: $duration $duration/2;
+    border-radius: 1rem;
+  }
+
+  &:before {
+    top: 0.625rem;
+  }
+  &:after {
+    top: -0.625rem;
+  }
+}
+
+.open:not(.steps) .navicon:before,
+.open:not(.steps) .navicon:after {
+  top: 0 !important;
+}
+
+.open .navicon:before,
+.open .navicon:after {
+  transition: $duration;
+}
+
+/* Minus */
+.open {
+  transform: scale($toggled-size);
+}
+
+/* Arrows */
+.open.larr .navicon,
+.open.rarr .navicon,
+.open.uarr .navicon {
+  &:before,
+  &:after {
+    width: 1.5rem;
+  }
+
+  &:before {
+    transform: rotate(35deg);
+    transform-origin: left top;
+  }
+  &:after {
+    transform: rotate(-35deg);
+    transform-origin: left bottom;
+  }
+}
+.open.uarr {
+  transform: scale($toggled-size) rotate(90deg);
+}
+
+/* Arrows */
+.open.rarr .navicon {
+  &:before {
+    transform: translate3d(1em, 0, 0) rotate(-35deg);
+    transform-origin: right top;
+  }
+  &:after {
+    transform: translate3d(1em, 0, 0) rotate(35deg);
+    transform-origin: right bottom;
+  }
+}
+
+@media (max-width: 620px) {
+  .is-navbar-closed {
+    display: none !important;
+  }
+}
+
+.link {
+  position: relative;
+  display: flex;
+  padding: 34px 7px;
+  font-size: 16px;
+  max-width: 24px;
+  font-weight: 500;
+  align-self: center;
+  margin: 0px 20px 0px 0px;
+  text-decoration: none;
+  color: $on-navbar-color !important;
+}
+
+.header-line {
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.right-header-buttons-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  background: $background-navbar;
+  border-radius: 0px 3px 3px 0px;
+}
+
+.button-donate-header {
+  outline: none;
+  border: none;
+  display: block;
+  margin: 10px;
+  min-width: 160px;
+  cursor: pointer;
+  padding: 5px;
+  width: 160px;
+  line-height: 32px !important;
+  font-size: 16px;
+  font-weight: 600;
+  max-height: 50px;
+  align-self: center;
+  background-color: $background-donate-button;
+  position: relative;
+  border: 1.5px solid $border-donate-button;
+  border-radius: 0px !important;
+
+  @include transition(all 0.5s ease);
+}
+
+.shake-animation {
+  color: $on-donate-button;
+
+  &:hover {
+    border-color: $hover-border-donate-button;
+    background-color: $hover-background-donate-button;
+    color: $hover-on-donate-button;
+
+    @include animation(shakeThatBooty 0.3s linear 1);
+  }
+}
+
+@keyframes shakeThatBooty {
+  33% {
+    @include transform(rotateZ(10deg));
+  }
+  67% {
+    @include transform(rotateZ(-10deg));
+  }
+  100% {
+    @include transform(rotateZ(10deg));
+  }
+}
