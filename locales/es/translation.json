@@ -1,0 +1,114 @@
+{
+  "header": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "safety": "Seguridad",
+    "photos": "Fotos",
+    "testimonial": "Testimoniales",
+    "contact": "Contactanos",
+    "donate": "Dona En Línea"
+  },
+
+  "home": {
+    "presentationText": "Our goal is to serve the under served in Puerto Peñasco, Sonora, Mexico, in their quest for acute or ongoing free medical care, and to lead them into a loving relationship with Jesus Christ through the clinic outreach. We provide free medical care to the people who are otherwise overlooked in their health care needs. We provide services, in cooperation with the city and the Cruz Roja, and local physicians.<br /><br />We attempt to provide care when no other resources are available to people desperately hurt by the changing economic conditions of the area. We are under the missions area of Family of God church, in Puerto Peñasco.",
+    "upcomingClinics": "Próximas Clínicas",
+    "videoTitle": "PEÑASCO WORDS OF HOPE COMMUNITY CENTER",
+    "videoText": "Durante los últimos 5 años hemos podido ayudar a las familias de nuestra ciudad gracias a tu apoyo! Ayúdanos para seguir alcanzando a más familias!.",
+    "donateButtonText": "DONA",
+    "donateText": "Amigos, por favor ayuden a los afectados por el COVID-19 en Puerto Peñasco.",
+    "services": {
+      "title": "Servicios"
+    },
+    "communityCenter": "Centro Comunitario"
+  },
+  "about": {
+    "title": "Clínicas Medicas Puerto Peñasco",
+    "subtitle": "Ayudando a adultos y niños de Puerto Peñasco, Sonora.",
+    "firstParagraph": "Las clínicas médicas de Rocky Point encontraron su inicio en 1998 cuando el Dr. George Stavros hizo su primera clínica en Puerto Peñasco, México, y se dio cuenta de que esta era su vocación.",
+    "secondParagraph": "Entonces él y su esposa, Susie, comenzaron a hacerlos en la iglesia New Birth Mexican Mission. Sin embargo, al aumentar su participación en la Comunidad de la Comunidad de Dios, hicieron de las clínicas una extensión de su nueva iglesia local.",
+    "firstQuote": "Estamos comprometidos a tenerlos donde sea que nos inviten a tener uno en Peñasco ... siempre y cuando el propósito principal sea proclamar a Cristo a través de la divulgación médica",
+    "sourceQuote": "Declaro la pareja.",
+    "secondQuote": "Nuestras clínicas están ahora una vez al mes, excepto en agosto, cuando no tenemos ninguna.",
+    "thirdQuote": "Recibimos una pequeña subvención, lo que nos permitió contratar a Loly Martínez como nuestra administradora. Ahora contamos con las enfermeras del departamento de salud de la ciudad en nuestras clínicas para hacer exámenes de mamas y pruebas de Papanicolaou. Esto ha sido una bendición, ya que encontraron a una mujer con cáncer en etapa temprana y ella está siendo tratada.",
+    "fourthQuote": "También hemos comenzado a recaudar un poco de dinero para pagar los procedimientos médicos ... tenemos un pequeño hombre con labio leporino y hendido que se sometió a una cirugía el invierno pasado y la próxima en breve, que pudimos financiar. tenemos varios niños con problemas cardíacos a quienes estamos ayudando.",
+    "fifthQuote": "Las pruebas de TB se agregaran pronto, y ahora estamos trabajando con la comunidad local para brindar la mejor atención a la gente de Puerto Peñasco. La Cruz Roja (Cruz Roja) nos ayuda cuando es necesario y tenemos un oculista local y varios locales. médicos que nos ayudan cuando es necesario."
+  },
+
+  "contact": {
+    "title": "Información de contacto",
+    "subtitle": "No dudes en contactarnos",
+    "socialLabel": "Visita nuestras redes sociales",
+    "phoneLabel": "Teléfono",
+    "emailLabel": "Correo",
+    "addressLabel": "Dirección",
+    "communityCenter": "Centro Comunitario",
+    "placeLabel": "Clínica"
+  },
+
+  "safety": {
+    "title": "Seguridad",
+    "subtitle": "De Visita en Mexico?",
+    "tips": [
+      {
+        "title": "Consejos de manejo y transporte:",
+        "text": "Viaje a lo largo de la autopista 85 al sur de Why, AZ y hasta el punto de control fronterizo de Lukeville (también conocido como \"Paso Gringo\") y hacia México. Si elige conducir (asegúrese de obtener un seguro mexicano con anticipación, disponible en línea [dos compañías locales: Alejandro Portugal y ProAlliance], así como en numerosas oficinas a lo largo de la ruta a Lukeville) o incluso planifique viajes sin conducir al optar por Uno de los servicios de transporte que han surgido en los últimos años. Para el servicio de transporte puerta a puerta, a menudo vemos furgonetas desde Head out hasta Rocky Point (desde Phoenix) y Rocky Point Rides (desde Tucson) que se lanzan con frecuencia por la ciudad.<br/> <br/>Cuando conduzca ... mire las señales de límite de velocidad !!!! Esto es particularmente cierto cuando te acercas y pasas por Ajo, que parece ser un campo de entrenamiento para repartir boletos, y por Sonoyta justo cuando cruzas a México.<br/> <br/> <b>Importante:</b> las señales de tráfico en México están en kilómetros y, al cruzar la frontera, verá señales que van desde 40 kilómetros (sí, sobre la velocidad a pie) hasta 60 kilómetros y luego de regreso a 40, y a menudo las policías están listas para recordar tú. Después de una semana llena de diversión en Rocky Point, cuando conduces de regreso a la frontera de los EE. UU. Es <b>MUY IMPORTANTE</b> reducir tu velocidad a 40 kilómetros / hora justo cuando te acercas a la curva final que conduce a Sonoyta; sí, es una trampa de velocidad.",
+        "icon": "car"
+      },
+      {
+        "title": "¿Qué pasa con los puntos de control?",
+        "text": "Al conducir a Rocky Point, sí, se encontrará con los dos puntos de control de la patrulla fronteriza en el lado de los EE. UU. (Aunque solo tiene que reducir la velocidad al dirigirse hacia el sur, no detenerse, detenerse en su camino de regreso al norte) y, a veces, hay policías y / o puestos de control militares en el lado mexicano de la frontera. ¡Todo esto es para su seguridad! Personalmente, prefiero conducir hacia / desde Rocky Point durante el día, aunque en el pasado he conducido hasta bien entrada la noche, llegando a mi casita alrededor de la 1 a.m. (Por cierto, la entrada de Lukeville / Sonoyta está cerrada entre la medianoche y 6 am - y sí, cuando se dirigen al sur, algunas personas han tenido que regresar a un hotel en Ajo). Ahora que soy “mayor y más sabio”, prefiero conducir durante el día por varias razones de seguridad: puedo ver el tráfico que se aproxima (por la noche, no todos los faros parecen funcionar), así como la rara vaca que puede cruzar la carretera. , hay más tráfico en general, y francamente durante el día no estoy tan sorprendido por los controles de la policía.<br/> ¿Caravana con un grupo de amigos? Aún mejor.",
+        "icon": "map-marker"
+      },
+      {
+        "title": "¿Beber agua?",
+        "text": "No al agua del grifo, aunque puedes cepillarte los dientes con ella y, por supuesto, bañarte. Todos los restaurantes tendrán \"garrafones\" de agua (jarras de agua embotellada), así como opciones más pequeñas de agua embotellada para beber.",
+        "icon": "tint"
+      },
+      {
+        "title": "¿Tirar el papel higiénico?",
+        "text": "En general no. ¿Qué ... qué tipo de pregunta es esa? La fontanería en la mayor parte de México (y en muchas partes de América Latina y más allá) es diferente que en los EE. UU. Y no tiende a descomponer el papel muy bien, así que, aquí va, si hay un bote de basura ubicado cerca del inodoro, generalmente habrá un letrero que diga \"Por favor deposite papel en lata, no en el inodoro\" \"¡No papel en la taza!\" En algunos de los centros turísticos más modernos, no habrá latas cerca del inodoro, lo que significa que se puede tirar el papel.",
+        "icon": "toilet-paper"
+      },
+      {
+        "title": "¿Protección solar?",
+        "text": "Sí, hazlo ... pantalla de sol, sombreros, gorras, etc.",
+        "icon": "sun"
+      },
+      {
+        "title": "¿Empacar joyas y cosas valiosas?",
+        "text": "Si no lo necesita, no lo traiga ya que es algo menos de lo que preocuparse.",
+        "icon": "gem"
+      },
+      {
+        "title": "¿Ropa?",
+        "text": "Los días cálidos y calurosos y las noches frías, traiga al menos una chaqueta ligera o un suéter para las noches, además de jeans, no todo son pantalones cortos y bikinis en marzo ... lo siento.",
+        "icon": "tshirt"
+      },
+      {
+        "title": "¿Qué tipo de zapatos?",
+        "text": "Esté preparado para tener arena en sus zapatos, no importa lo que traiga. Ponte cómodo ... ¡es la playa! Sí, hay algunos clubes si buscas pavonearte los talones y sí, obtendrás arena en ellos.",
+        "icon": "shoe-prints"
+      },
+      {
+        "title": "¿Comida de la calle?",
+        "text": "Hay algunos tacos, hot dogs y otros puestos de comida en toda la ciudad. Frecuentemente frecuentamos varios lugares de tacos casi semanalmente y definitivamente tenemos nuestros favoritos, y luego, durante las vacaciones de primavera u otras fiestas grandes (como Semana Santa), hay una oleada de otros carros que aparecen por la ciudad. Básicamente, sea sensato. Si tienes miedo de enfermarse por comer en un carrito de la calle, no lo hagas, elige un restaurante favorito. Si está ansioso por probar un hot dog sonorense envuelto en tocino, o los fabulosos tacos de carne asada (carne de res) o tacos al pastor (cerdo), hágalo. Lávese las manos con frecuencia o use gel antibacteriano (instalado en restaurantes y otros lugares de la ciudad) como una buena manera de mantenerse saludable.",
+        "icon": "utensils"
+      },
+      {
+        "title": "¿Bebidas?",
+        "text": "La edad legal para beber en México es de 18 años y les pedimos a todos que sean inteligentes al salir. ¡Diviértete, pero asegúrate de llegar a casa de forma segura (y recuerda dónde te estás quedando)! Hay taxis disponibles en toda la ciudad, así como en los hoteles y complejos turísticos; generalmente cobran por persona, aunque recomendamos consultar con su hotel cuál es la tarifa \"promedio\" de viaje en taxi. Asegúrese de que alguien en su grupo siga siendo un conductor designado si planea conducir, pero de nuevo ... aproveche los taxis y viaje con amigos (siempre viaje con al menos otra persona, y con suerte uno de ustedes recordará dónde está ' re quedarse).",
+        "icon": "glass-cheers"
+      },
+      {
+        "title": "¿ATV, ultraligeros y cascos?",
+        "text": "Sí, están cerca y sí, ¡ponte un casco! Los vehículos todo terreno no están permitidos en las carreteras principales que atraviesan la ciudad, así que quédese cerca de la arena y las dunas; no pase rápido por los automóviles en carreteras pavimentadas, incluso en el arcén de arena al lado de la carretera.",
+        "icon": "motorcycle"
+      },
+      {
+        "title": "Números de emergencia:",
+        "text": "En México, marque  <a href=\"tel:066\">066</a> en caso de emergencia (similar al 911). <br/>La Cruz Roja se encuentra en Blvd. Fremont está cerca del Departamento de Bomberos y se puede ver fácilmente si es necesario, abierto las 24 horas. Además, como un tremendo servicio a la comunidad, permítanme presentarles a Rosie Glover de ProAlliance Insurance quien asistirá las emergencias durante todo el día (en español / inglés) según sea necesario Oficina: <a href=\"tel:(638)388-6624\">(638)388-6624</a> y celular: <a href=\"tel:044-638-112-0134\"> 044-638-112-0134 </a> En general, como dice el cónsul general de los Estados Unidos, Chad Cummins, de Nogales, \"tenga precaución\" cuando viaje a Rocky Point \"... tener precaución es lo mismo que hace cuando cruza la calle o cuando sale de noche a la gran ciudad\"(<a href=\"http://nogalesinternational.com\" target=\"_blank\">nogalesinternational.com</a>).<br/> Por encima de todo, asegúrese de no sufrir de \"cerebro-dejado-en-la-frontera-itis\" - no sé si todavía hay una cura para eso.",
+        "icon": "ambulance"
+      }
+    ]
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About Us",
+    "safety": "Safety",
+    "photos": "Photos",
+    "testimonial": "Testimonial",
+    "contact": "Contact",
+    "donate": "Donate Online"
+  },
+
+  "home": {
+    "presentationText": "Our goal is to serve the under served in Puerto Penasco, Sonora, Mexico, in their quest for acute or ongoing free medical care, and to lead them into a loving relationship with Jesus Christ through the clinic outreach. We provide free medical care to the people who are otherwise overlooked in their health care needs. We provide services, in cooperation with the city and the Cruz Roja, and local physicians.<br /><br />We attempt to provide care when no other resources are available to people desperately hurt by the changing economic conditions of the area. We are under the missions area of Family of God church, in Puerto Peñasco.",
+    "upcomingClinics": "Upcoming Clinics",
+    "videoTitle": "PEÑASCO WORDS OF HOPE COMMUNITY CENTER",
+    "videoText": "During the last 5 years we have been able to help the families of our city thanks to your support! Help us to continue reaching more families!",
+    "donateButtonText": "Donate",
+    "donateText": "Friends, please help those affected by COVID-19 in Rocky Point.",
+    "services": {
+      "title": "Services"
+    },
+    "communityCenter": "Community Center"
+  },
+
+  "about": {
+    "title": "Rocky Point Medical Clinics",
+    "subtitle": "Serving The Adults & Children of Puerto Peñasco, Mexico.",
+    "firstParagraph": "Founded in 1998 when Dr. George Stavros did his first clinic in Puerto Peñasco, Mexico and realized that this was his calling. So he and his wife, Susie, started doing them at New Birth Mexican Mission church.",
+    "secondParagraph": "With their involvement with Family of God Fellowship growing, however, they made the clinics an outreach of their new home church.",
+    "firstQuote": "We are committed to having them wherever we are invited to have one in Peñasco...as long as the main purpose is to proclaim Christ through the medical outreach.",
+    "sourceQuote": "Stated the couple.",
+    "secondQuote": "Our clinics are now once a month, except for August, when we have none.",
+    "thirdQuote": "We received a small grant, which has allowed us to hire Loly Martinez as our administrator . We now have the city health dept. nurses at our clinics to do breast exams and pap smears. This has been a blessing, as they found a woman with early stage cancer and she is being treated.",
+    "fourthQuote": "We also have started to raise a little money to pay for medical procedures...we have a little guy with a harelip and cleft palate who has had one surgery last winter and his next one shortly, which we were able to fund. We have several kids with heart problems whom we are helping.",
+    "fifthQuote": "TB testing will be added soon, and we are now working with the local community to provide the best care for the people of Puerto Peñasco. The Cruz Roja (Red Cross) helps us when needed and we have a local eye doctor and various local doctors who help us when needed. This is all done with donations, and we are working on getting ongoing resources, so the clinics have a secure future in Peñasco, for the people of Peñasco. Living Streams church in Phoenix gives us support on a monthly basis, and we hope to expand our contributor base. If you are interested in helping this ministry in any way, please contact us. "
+  },
+
+  "contact": {
+    "title": "Contact Information",
+    "subtitle": "Don't hesitate to contact us",
+    "socialLabel": "Check our social networks",
+    "phoneLabel": "Phone",
+    "emailLabel": "Email",
+    "addressLabel": "Address",
+    "communityCenter": "Community Center",
+    "placeLabel": "Clinic"
+  },
+
+  "safety": {
+    "title": "safety",
+    "subtitle": "Visiting Mexico?",
+    "tips": [
+      {
+        "title": "Driving tips & shuttles:",
+        "text": "Travel down along Highway 85 south of Why, AZ and to the Lukeville (a.k.a “Gringo Pass”) border checkpoint and into Mexico. <br/> If you choose to drive (be sure to get Mexican insurance ahead of time - available online [two local companies: Alejandro Portugal and ProAlliance] as well as at numerous offices along the route to Lukeville) or even plan drive-free travels by opting for one of the shuttle services that have sprung up in recent years. For door to door shuttle service, we often see vans from Head out to Rocky Point (from Phoenix) and Rocky Point Rides (from Tucson) frequently darting around town. <br/><br/>When driving….watch the speedlimit signs!!!! This is particularly true when nearing and going through Ajo, which seems to be a training ground for giving out tickets, and through Sonoyta just as you cross into Mexico. <br/> <br/><b>Important:</b> the traffic signs in Mexico are in kilometers and just as you cross the border you will see signs that go from 40 kilometers (yes, about walking speed) to 60 kilometers and then back to 40, and often policias are there ready to remind you. After a fun-filled week in Rocky Point, when driving back to the U.S. border it is <b>VERY IMPORTANT</b> to drop your speed to 40 kilometers/hour just as you near the final curve leading into Sonoyta - yes, that is a speed trap.",
+        "icon": "car"
+      },
+      {
+        "title": "What about checkpoints?",
+        "text": "When driving to Rocky Point, yes you will come across both border patrol checkpoints on the US side (though you only have to slow down when heading South, not stop - stop on your way back North) and at times there are police and/or military checkpoints on the Mexican side of the border. <br/>These are all for your safety! Personally, I prefer to drive to/from Rocky Point during the day, though in the past I have done the drive well into the night, arriving at my casita around 1 a.m. (By the way, the Lukeville/Sonoyta entry is closed between midnight and 6 a.m. - and yes, when heading South some folks have had to drive back to a hotel in Ajo ). <br/>Now that I'm “older and wiser” I much prefer driving during daylight hours for a number of safety reasons: I can see oncoming traffic (at night not all headlights seem to work) as well as the rare cow that may cross the road, there is more traffic in general, and quite frankly during the day I'm not as startled by the police checkpoints.<br/> Caravanning with a group of friends? Even better.",
+        "icon": "map-marker"
+      },
+      {
+        "title": "Drink the water?",
+        "text": "No to tap water though you can brush your teeth with it and of course bathe. <br/> All restaurants will have \"garrafons\" of water (bottled water jugs) as well as smaller bottled water options for drinking.",
+        "icon": "tint"
+      },
+      {
+        "title": "Flush the toilet paper?",
+        "text": "Generally, no. What…what kind of question is that? <br/>The plumbing in most of Mexico (and throughout many parts of Latin America and beyond) is different than in the U.S. and does not tend to break down paper very well so - here it goes - if there is a trash can located near the toilet, there will generally be a sign stating: <br/> “Please deposit paper in can, not in the toilet”<br/> “No papel en la taza!”<br/> In some of the more modern resorts, there will be no can near the toilet, meaning paper can be flushed down.",
+        "icon": "toilet-paper"
+      },
+      {
+        "title": "Sun protection?",
+        "text": "Yes - do it….sunscreen, hats, caps, etc.",
+        "icon": "sun"
+      },
+      {
+        "title": "Pack jewelry and valuable stuff?",
+        "text": "If you don't need it, don't bring it as that's one less thing to worry about.",
+        "icon": "gem"
+      },
+      {
+        "title": "Clothing?",
+        "text": "Warm to hot sunny days and cool nights - bring at least a light jacket or sweater for the evenings, plus jeans - it's not all shorts and bikinis in March….sorry.",
+        "icon": "tshirt"
+      },
+      {
+        "title": "What kind of shoes?",
+        "text": "Be prepared to have sand in and on your shoes, no matter what you bring. Be comfortable…it's the beach! Yes, there are some clubs if you're looking to strut your heels and yes, you'll get sand in them.",
+        "icon": "shoe-prints"
+      },
+      {
+        "title": "Street food?",
+        "text": "There are some great taco, hotdog, and other food stands across town. We happen to frequent a number of taco places almost weekly and definitely have our favorites, and then during Spring Break or other big holidays (like Semana Santa) there are a flurry of other carts that pop up around town. Basically, be sensible. <br/><br/>If you are afraid of getting sick from eating off a street cart, don't do it - pick out a favorite restaurant instead. <br/><br/>If you are looking forward to trying a Sonoran hot-dog wrapped in bacon, or the terrific carne asada tacos (beef) or tacos al pastor (pork), do it. <br/>Wash your hands frequently, or use antibacterial gel (set up in restaurants and other spots in town) as a good way to stay healthy.",
+        "icon": "utensils"
+      },
+      {
+        "title": "Drinks?",
+        "text": "The legal drinking age in Mexico is 18 and we ask everyone to be smart when going out.<br/> Have fun, but make sure you get home safely (and remember where you are staying)!! <br/> There are taxis available all over town, as well as at the hotels and resorts - they generally charge per person though we recommend checking with your hotel as to what the “average” taxi ride rate may be. <br/>Make sure someone in your group remains a designated driver if you're planning on driving, but again…take advantage of the taxis and travel with friends (always travel with at least one other person - and hopefully one of you will remember where you're staying).",
+        "icon": "glass-cheers"
+      },
+      {
+        "title": "ATVs, ultralights, & helmets?",
+        "text": "Yes, they're around and yes, wear a helmet! ATVs are not allowed on the main roads through town, so stay to the sand and dunes - don't speed past cars on paved roads even on the sand shoulder next to the road.",
+        "icon": "motorcycle"
+      },
+      {
+        "title": "Emergency numbers:",
+        "text": "In Mexico, dial <a href=\"tel:066\">066</a> in case of an emergency (similar to 911). <br/>The Red Cross is located on Blvd. Fremont right near the Fire Department and is easily spotted if needed, open around the clock. Plus, as a tremendous service to the community, let me introduce Rosie Glover of ProAlliance Insurance who will assist with emergencies around the clock (in Spanish/English) as needed Office: <a href=\"tel:(638)388-6624\">(638)388-6624</a> and cell: <a href=\"tel:044-638-112-0134\"> 044-638-112-0134 </a> In all, as US Consul General Chad Cummins from Nogales says, “exercise caution” when traveling to Rocky Point “…exercise caution is the same thing you do when you cross the street, or when you go out at night in the big city” (<a href=\"http://nogalesinternational.com\" target=\"_blank\">nogalesinternational.com</a>).<br/> Above all, be sure you do not suffer from “brains-left-at-the-border-itis” - I don't know if there's a cure yet for that.",
+        "icon": "ambulance"
+      }
+    ]
+  }
+}
