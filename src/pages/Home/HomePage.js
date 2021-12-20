@@ -9,7 +9,7 @@ import db from 'services/firebase/firebase';
 import ServiceComponent from './ServiceComponent';
 import DonateComponent from './DonateComponent';
 import ClinicServices from 'services/ClinicServices';
-import clinicDates from 'services/ClinicDates';
+import getDatesByYear from 'services/ClinicDates';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { es, enUS } from 'date-fns/esm/locale';
 import { capitalize } from 'shared/helpers/Utilities';
@@ -23,7 +23,7 @@ export default function HomePage() {
   const [mq, setMq] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
   const [services] = useState(ClinicServices.getServices());
-
+  console.log(mq);
   useEffect(() => {
     const mql = window.matchMedia('(max-width: 600px)');
     console.log(mql);
@@ -37,44 +37,51 @@ export default function HomePage() {
 
   useEffect(() => {
     const getData = async () => {
-      const snapshot = await db.collection('articles').get();
       const articles = [];
       let mainArticle = {};
-      snapshot.docs.map((doc) => {
-        let data = doc.data();
-        if (data.isMain) {
-          mainArticle = { id: doc.id, ...doc.data() };
-        } else {
-          articles.push({ id: doc.id, ...doc.data() });
-        }
-        return data;
-      });
-
-      setArticles(articles);
-      setMainArticle(mainArticle);
+      fetch('locales/articles.json').then(resp => resp.json()).then(data => {
+        data.map(article => {
+          if (article.isMain) {
+            mainArticle = article
+          } else {
+            articles.push(article);
+          }
+        });
+        setArticles(articles);
+        setMainArticle(mainArticle);
+      }
+      );
     };
     getData();
   }, []);
 
   useEffect(() => {
     const currentDate = new Date();
-    const dates = clinicDates.getDatesByYear(currentDate.getFullYear());
-    const locale = i18n.language === 'es' ? es : enUS;
-    const datesSeparated = dates.map((date) => {
-      return {
-        week: capitalize(
-          format(date, 'EEEE', {
+    getDatesByYear(currentDate.getFullYear()).then(datesResponse => {
+      const dates = [];
+      datesResponse.forEach((date) => {
+        const newDate = new Date(date);
+        dates.push(newDate);
+      });
+      console.log(dates);
+      const datesSeparated = dates.map((date) => {
+        return {
+          week: capitalize(
+            format(date, 'EEEE', {
+              locale,
+            })
+          ),
+          day: format(date, 'dd'),
+          month: format(date, 'MMM', {
             locale,
-          })
-        ),
-        day: format(date, 'dd'),
-        month: format(date, 'MMM', {
-          locale,
-        }),
-      };
+          }),
+        };
+      });
+      setYear(format(dates[0], 'yyyy'));
+      setDates(datesSeparated);
     });
-    setYear(format(dates[0], 'yyyy'));
-    setDates(datesSeparated);
+    const locale = i18n.language === 'es' ? es : enUS;
+
   }, [t, i18n]);
 
   const goTo = (e, url) => {
