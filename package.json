@@ -16,7 +16,7 @@
     "firebase": "^7.14.2",
     "i18next": "^19.4.4",
     "i18next-browser-languagedetector": "^6.1.2",
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-animated-slider": "^2.0.0",
     "react-dom": "^16.13.1",
