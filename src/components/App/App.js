@@ -16,6 +16,7 @@ import {
 } from '../../pages';
 
 import { Header, Footer } from 'components/index';
+import { HashRouter } from 'react-router-dom/cjs/react-router-dom.min';
 
 const AnimatedSwitch = withRouter(({ location }) => {
   window.scrollTo(0, 0);
@@ -47,13 +48,13 @@ function App() {
     <div className="app">
       <div className="main-container">
         <Suspense fallback={renderLoader()}>
-          <BrowserRouter>
+          <HashRouter>
             <Header></Header>
             <div className="app-component-container">
               <AnimatedSwitch />
             </div>
             <Footer></Footer>
-          </BrowserRouter>
+          </HashRouter>
         </Suspense>
       </div>
     </div>

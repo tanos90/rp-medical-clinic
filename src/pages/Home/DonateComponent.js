@@ -22,7 +22,7 @@ const DonateComponent = (props) => (
       </span>
       <div className="col-sm-12 col-md-3 my-2 text-center d-flex justify-content-center">
         <a
-          href="https://give.idonate.com/rocky-point-medical-clinic-pia/donate"
+          href="https://www.partnersinaction.org/rocky-point-medical-clinics?fbclid=IwAR0xJpJw_KpfkEB6UJpeIBC0JstI2oXDDi_8aTLk451QcusywdJJdfvXryQ"
           className="btn-animated btn-donate "
         >
           <svg>

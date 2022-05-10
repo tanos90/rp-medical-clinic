@@ -13,7 +13,7 @@ const Header = (props) => {
   const history = useHistory();
 
   const donateLink =
-    'https://give.idonate.com/rocky-point-medical-clinic-pia/donate';
+    'https://www.partnersinaction.org/rocky-point-medical-clinics?fbclid=IwAR0xJpJw_KpfkEB6UJpeIBC0JstI2oXDDi_8aTLk451QcusywdJJdfvXryQ';
 
   useEffect(() => {
     const mql = window.matchMedia('(max-width: 900px)');
